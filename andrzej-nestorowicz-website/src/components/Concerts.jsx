@@ -12,7 +12,7 @@ const Concerts = () => {
       venue: 'DK Kadr',
       city: 'Warszawa',
       description: 'Autorski koncert Andrzeja Nestorowicza',
-      ticketLink: '#'
+      ticketLink: 'https://biletyna.pl/koncert/Koncert-Andrzej-Nestorowicz'
     },
    
   ];
@@ -74,7 +74,7 @@ const Concerts = () => {
                   onClick={() => window.open(concert.ticketLink, '_blank')}
                 >
                   <ExternalLink size={16} className="mr-2" />
-                  Kup bilety
+                  Bilety
                 </Button>
               </div>
             </div>
